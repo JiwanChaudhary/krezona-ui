@@ -1,7 +1,11 @@
+import Navbar from "@/components/navbar/navbar";
+
 export default function Home() {
   return (
-    <>
-      <h1 className="text-red-500">This is test</h1>
-    </>
+    <main>
+      <section className="page-wrapper">
+        <Navbar />
+      </section>
+    </main>
   );
 }

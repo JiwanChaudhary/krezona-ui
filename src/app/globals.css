@@ -7,3 +7,7 @@
 *::after {
   @apply m-0 p-0 box-border;
 }
+
+.page-wrapper {
+  @apply mx-2 md:mx-20 lg:mx-28
+}

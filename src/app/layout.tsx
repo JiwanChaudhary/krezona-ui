@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { MantineProvider } from "@mantine/core";
 
 export const metadata: Metadata = {
   title: "Krezona UI",
@@ -13,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="h-full w-full">{children}</body>
+      <body className="h-full w-full">
+        <MantineProvider>{children}</MantineProvider>
+      </body>
     </html>
   );
 }
