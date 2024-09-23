@@ -3,6 +3,7 @@ import KrezonaButton from "../ui/button";
 import Image from "next/image";
 import disabledOne from "@/assets/disable-1.png";
 import human from "@/assets/human.png";
+import SectionTitle from "../ui/section-title";
 
 const Home = () => {
   return (
@@ -11,9 +12,9 @@ const Home = () => {
       className="flex gap-5 items-start justify-start relative"
     >
       <div className="max-w-[600px]">
-        <h2 className="text-xl font-bold my-2 md:mt-5 md:mb-4 text-krezonaBlack tracking-wide md:text-2xl lg:text-4xl">
+        <SectionTitle>
           Your Partner at <br /> Disability
-        </h2>
+        </SectionTitle>
         <p className="my-2 md:my-3 tracking-wide">
           Impack care seeks to provide good quality services for people with
           disabilities, ensuring that their individual requirements are met.
